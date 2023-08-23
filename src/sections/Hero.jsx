@@ -19,12 +19,12 @@ const Hero = () =>{
             >
                 <p className={"text-red-400 font-montserrat"}>Our Summer Collections</p>
                 <h1 className={'mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'}>
-                    <span>The New Arrival</span>
+                    <span>The </span>
                     <br/>
-                    <span className={"text-red-500"}>Nike</span> Shoes
+                    <span className={"text-red-500"}>New Arrival </span> IEM Shoes
                 </h1>
-                <p className={"mt-6 leading-8 sm:max-w-sm font-montserrat"}>Discover Stylish Nike Arrivals, quality comfort and innovation for your active life</p>
-                <Button label={"Shop Now"} iconUrl={arrowRight}/>
+                <p className={"mt-6 leading-8 sm:max-w-sm font-montserrat"}>Discover Stylish Nike Arrivals, quality comfort and innovation for your active life desgined by AKC with active collaboration with PKD</p>
+                <Button label={"Shop Now"} iconUrl={arrowRight} bgColor={"bg-coral-red"} textColor={"white"}/>
                 <div
                     className={"flex justify-start gap-16 mt-20 items-start w-full"}
                 >
@@ -43,7 +43,7 @@ const Hero = () =>{
                     }
                 </div>
             </div>
-            <div className={"relative flex-1 flex justify-center items-center lg:min-h-screen bg-primary bg-hero bg-cover bg-center"}>
+            <div className={"relative flex-1 flex justify-center items-center lg:min-h-screen bg-primary bg-hero bg-cover bg-center rounded-2xl"}>
                 <img
                     src={shoeImg}
                     alt={"shoe collection"}
