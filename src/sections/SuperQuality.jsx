@@ -15,7 +15,7 @@ const SuperQuality = () =>{
                 <p className={"sm:max-w-sm pt-5 pb-3 font-montserrat text-gray-500"}>
                     The linings and insoles are typically made from high-quality leather or moisture-wicking materials for comfort and breathability.
                 </p>
-                <Button label={"View Details"} textColor={"white"} bgColor={"bg-coral-red"}/>
+                <Button label={"View Details"} textColor={"text-white"} bgColor={"bg-coral-red"}/>
             </div>
             <div className={"max-sm: p-5"}>
                 <img

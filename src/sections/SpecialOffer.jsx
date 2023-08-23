@@ -12,10 +12,10 @@ const SpecialOffer = () =>{
                     <Button
                         label={"Shop Now"}
                         iconUrl={arrowRight}
-                        textColor={"white"}
+                        textColor={"text-white"}
                         bgColor={"bg-coral-red"}
                     />
-                    <Button label={"Learn More"} textColor={"gray-500"} />
+                    <Button label={"Learn More"} textColor={"text-gray-500"} />
                 </div>
             </div>
             <div>

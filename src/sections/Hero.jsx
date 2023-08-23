@@ -24,7 +24,7 @@ const Hero = () =>{
                     <span className={"text-red-500"}>New Arrival </span> IEM Shoes
                 </h1>
                 <p className={"mt-6 leading-8 sm:max-w-sm font-montserrat"}>Discover Stylish Nike Arrivals, quality comfort and innovation for your active life desgined by AKC with active collaboration with PKD</p>
-                <Button label={"Shop Now"} iconUrl={arrowRight} bgColor={"bg-coral-red"} textColor={"white"}/>
+                <Button label={"Shop Now"} iconUrl={arrowRight} bgColor={"bg-coral-red"} textColor={"text-white"}/>
                 <div
                     className={"flex justify-start gap-16 mt-20 items-start w-full"}
                 >

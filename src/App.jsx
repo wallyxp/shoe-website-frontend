@@ -30,4 +30,7 @@ const App = () =>(
     </main>
 )
 
+// 'Source Code Pro', monospace
+// Consolas, 'Courier New', monospace
+
 export default App
